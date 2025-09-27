@@ -11,7 +11,7 @@
 * **Purpose:** Demonstrate keystroke and clipboard capture for educational and lab testing only.
 * **Language:** Python (3.8+ recommended)
 * **Interfaces:** Command-line execution; optional local HTTP server to receive logs.
-* **Logs:** `credentials.log` (local file created/appended automatically)
+
 
 ---
 
@@ -45,14 +45,6 @@
 git clone https://github.com/Uhani007/KeyPhantom.git
 cd KeyPhantom
 ```
-
----
-
-## 🧰 Usage Notes
-
-* `server.py` is a simple local HTTP receiver; if you configure `KeyPhantom.py` to POST captured data, it can forward logs to the running server.
-* For purely local testing, run `KeyPhantom.py` and inspect `credentials.log`.
-
 ---
 
 ## 🔒 Safety & Ethics
@@ -65,6 +57,4 @@ If you are using this code for research or demonstrations:
 * Store logs securely and never publish real sensitive data.
 * Follow responsible disclosure and ethical guidelines.
 
----
 
-## 🧹 Suggested `.gitignore
